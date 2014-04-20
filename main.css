@@ -1,0 +1,291 @@
+/**
+ * Global Reset of all HTML Elements
+ *
+ * Resetting all of our HTML Elements ensures a smoother
+ * visual transition between browsers. If you don't believe me,
+ * try temporarily commenting out this block of code, then go
+ * and look at Mozilla versus Safari, both good browsers with
+ * a good implementation of CSS. The thing is, all browser CSS
+ * defaults are different and at the end of the day if visual
+ * consistency is what we're shooting for, then we need to
+ * make sure we're resetting all spacing elements.
+ *
+ */
+html,
+body {
+  border: 0;
+  font-family: "Helvetica-Neue", "Helvetica", Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+div,
+span,
+object,
+iframe,
+img,
+table,
+caption,
+thead,
+tbody,
+tfoot,
+tr,
+tr,
+td,
+article,
+aside,
+canvas,
+details,
+figure,
+hgroup,
+menu,
+nav,
+footer,
+header,
+section,
+summary,
+mark,
+audio,
+video {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cit,
+code,
+del,
+dfn,
+em,
+ins,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+b,
+i,
+hr,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+legend,
+label {
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+article,
+aside,
+canvas,
+figure,
+figure img,
+figcaption,
+hgroup,
+footer,
+header,
+nav,
+section,
+audio,
+video {
+  display: block;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+table caption,
+table th,
+table td {
+  text-align: left;
+  vertical-align: middle;
+}
+a img {
+  border: 0;
+}
+:focus {
+  outline: 0;
+}
+body {
+  font-family: arial, sans-serif;
+}
+.wrap {
+  background: #fff;
+}
+.clear {
+  clear: both;
+  float: none;
+}
+.btn {
+  padding: 15px 40px;
+  border-radius: 4px;
+  background: #26bcc4;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 30px;
+  text-decoration: none;
+}
+h2 {
+  font-size: 21pt;
+  padding: 40px 0;
+}
+.section {
+  padding: 31px 0 77px 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  position: relative;
+}
+.section > div {
+  max-width: 979px;
+  margin: auto;
+}
+.section > h2 {
+  margin-top: 0px;
+  text-align: center;
+}
+#header {
+  height: 70px;
+  padding: 10px 0 20px 0;
+  width: 978px;
+  margin: auto;
+}
+#header img {
+  float: left;
+  margin: 8px;
+}
+#header ul {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#header ul li {
+  float: left;
+}
+#header ul li a {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+  line-height: 40px;
+  padding: 10px 11px;
+  text-decoration: none;
+  color: #666666;
+}
+#header .btn {
+  padding: 5px 20px;
+  margin: 17px 10px 20px 18px;
+  display: block;
+  float: right;
+  color: #fff;
+}
+.tricol > .col {
+  float: left;
+  width: 33%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0 17px;
+}
+.tricol > .col > img {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+.tricol > .col.doublecol {
+  width: 66%;
+}
+#s_hero {
+  background: #eeeeee url(img/bg_hero_retina.png) no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 0;
+}
+#s_hero > div {
+  max-width: 640px;
+  margin: auto;
+}
+#s_hero > div h2 {
+  font-size: 28pt;
+  padding: 25px 0;
+}
+#s_hero > div p {
+  font-size: 13pt;
+}
+#s_hero .btn {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#s_whatIs {
+  background: #cccccc;
+  color: #333333;
+}
+#s_whatIs p {
+  line-height: 30px;
+  font-size: 12pt;
+}
+#s_about {
+  background: #5e9784 url(img/bg_about_retina.png) no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding-bottom: 72px;
+}
+#s_about p {
+  line-height: 30px;
+  font-size: 12pt;
+}
+#s_directors .person {
+  color: #999999;
+  font-style: italic;
+}
+#s_directors .line {
+  clear: both;
+  height: 50px;
+  margin-top: 50px;
+  border-top: solid 1px #aaa;
+}
+#s_background {
+  background: #666863 url(img/bg_background_retina.png) no-repeat;
+  background-size: cover;
+  padding-bottom: 97px;
+  color: #ffffff;
+}
+#s_background p {
+  line-height: 30px;
+  font-size: 12pt;
+}
+#s_joinUs {
+  background: #333333;
+  color: #ffffff;
+  text-align: center;
+}
+#s_joinUs a {
+  color: #fff;
+}
+#s_joinUs p {
+  line-height: 30px;
+  font-size: 12pt;
+}
+#s_joinUs .btn {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
