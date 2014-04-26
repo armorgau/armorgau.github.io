@@ -1,0 +1,213 @@
+@import "reset";
+
+body {
+	font-family: arial, sans-serif;
+}
+
+.wrap {
+	//max-width: 1000px;
+	background: #fff;
+	//margin: auto;
+}
+
+.clear {
+	clear: both;
+	float: none;
+}
+
+.btn {
+	padding: 15px 40px;
+	border-radius: 4px;
+	background: #26bcc4;
+	color: #fff;
+	display: inline-block;
+	font-weight: bold;
+	cursor: pointer;
+	line-height: 30px;
+	text-decoration: none;
+	&.grey {
+		background: rgba(0,0,0,.1);
+		outline-width: 2px;
+		outline-color: #26bcc4;
+		outline-style: solid;
+		border-radius: 4px;
+	}
+
+}
+
+h2 {
+	font-size: 21pt;
+	padding: 40px 0;
+}
+
+.borderBox(){
+	     box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.section{
+
+	padding: 31px 0 77px 0;
+	.borderBox();
+	position: relative;
+	& > div{
+		max-width: 979px;
+		margin: auto;
+	}
+	& > h2{
+		margin-top: 0px;
+		text-align: center;
+	}
+}
+
+#header{
+	height: 70px;
+	padding: 10px 0 20px 0;
+	width: 978px;
+	margin: auto;
+	img{
+		float: left;
+		margin: 8px;
+	}
+	ul{
+		float: right;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		
+		li{
+
+			a {
+				display: block;
+				margin: 10px 0;
+				font-size: 14px;
+
+				line-height: 40px;
+				padding: 10px 11px;	
+				text-decoration: none;
+				color: #666666;
+			}
+			float: left;
+		}
+	}
+	.btn{
+		padding: 5px 20px;
+		margin: 17px 10px 20px 18px;
+		display: block;
+		float: right;
+		color: #fff;
+	}
+}
+
+.tricol{
+	> .col{
+		float: left;
+		width: 33%;
+		.borderBox();
+		padding: 0 17px;
+		img{
+			display: block;
+			margin: auto;
+			width: 90%;
+		}
+
+
+		&.doublecol{
+			width: 66%;
+		}
+	}
+}
+
+#s_hero{
+	background: #eee url(img/bg_hero_retina.png) no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	text-align: center;
+	//height: 488px;
+	padding: 100px 0;
+	& > div{
+		h2{
+			font-size: 28pt;
+			padding: 25px 0;
+		}
+		max-width: 640px;
+		margin: auto;
+		p {
+			font-size: 13pt;
+		}
+	}
+	.btn{
+		margin-top: 40px;
+		margin-bottom: 40px;
+		margin-right: 20px;
+		.grey {
+			background: #ccc;
+		}
+	}
+}
+#s_whatIs{
+	background: #cccccc;
+	color: #333333;
+	p {
+		line-height: 30px;
+		font-size: 12pt;
+	}
+}
+#s_about{
+	background: #5e9784 url(img/bg_about_retina.png) no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	p {
+		line-height: 30px;
+		font-size: 12pt;
+	}
+	padding-bottom: 72px;
+}
+#s_directors{
+	//height: 1025px;
+
+	.person{
+		color: #999999;
+		font-style: italic;
+	} 
+
+	.line{
+		clear: both;
+		height: 50px;
+		margin-top: 50px;
+		border-top: solid 1px #aaa;
+	}
+
+}
+#s_background{
+	background: #666863 url(img/bg_background_retina.png) no-repeat;
+	background-size: cover;
+	padding-bottom: 97px;
+
+	color: #ffffff;
+
+	p {
+		line-height: 30px;
+		font-size: 12pt;
+	}
+
+}
+
+#s_joinUs{
+	background: #333333;
+	color: #ffffff;
+		text-align: center;
+	a{
+		color: #fff;
+	}
+
+	p {
+		line-height: 30px;
+		font-size: 12pt;
+	}
+	.btn{
+		margin-top: 40px;
+		margin-bottom: 40px;
+
+	}
+
+}
