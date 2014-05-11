@@ -19,7 +19,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 div,
 span,
 object,
@@ -268,6 +267,10 @@ h2 {
 #s_directors .person {
   color: #999999;
   font-style: italic;
+}
+#s_directors .person h2 a {
+  color: #999999;
+  text-decoration: none;
 }
 #s_directors .line {
   clear: both;
